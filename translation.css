@@ -1,3 +1,7 @@
 .smartling-yi .nygov-emergency-see-all, .smartling-ar .nygov-emergency-see-all, .smartling-ur .nygov-emergency-see-all   {
     margin-right: 75% !important;
 }
+
+.smartling-yi .nygov-universal-navigation .pane-page-logo, .smartling-ar .nygov-universal-navigation .pane-page-logo, .smartling-ur .nygov-universal-navigation .pane-page-logo {
+float: left;
+}
