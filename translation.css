@@ -3,5 +3,5 @@
 }
 
 .smartling-yi .nygov-universal-navigation .pane-page-logo, .smartling-ar .nygov-universal-navigation .pane-page-logo, .smartling-ur .nygov-universal-navigation .pane-page-logo {
-float: left;
+float: left !important;
 }
