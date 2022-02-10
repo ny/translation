@@ -21,7 +21,7 @@ class nysdsBanner extends HTMLElement {
     this.innerHTML = `
     <article id="nysds-hide-this" class="nysds-static-banner">
         <div class="nysds-static-wrap">
-            <div class="nysds-disclaimer"> This is a disclaimer that says you should or shouldn't do something. So do or don't do that please! (also you can close it)</div>
+            <div class="nysds-disclaimer"> This website has been translated using automated translation technology. No automated translation is perfect, nor is it intended to replace human translators.</div>
             <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
                 <span class="sr-only" id="close-button-label">Close this notification banner</span>
             </button>
