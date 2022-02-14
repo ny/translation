@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="nysds-banner.css" rel="stylesheet"> <!-- the CSS -->
+    
+    <title>A test page to load custom js component</title>
+    
+  </head>
+  <body class="">
+   <h1> A Demo Page for the translations disclaimer banner</h1>
+
+
+  <!-- Here's the HTML of the banner -->
+   <article id="nysds-hide-this" class="nysds-static-banner">
+    <div class="nysds-static-wrap">
+        <div class="nysds-disclaimer"> This is a disclaimer that says you should or shouldn't do something. So do or don't do that please! (also you can close it)</div>
+        <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
+            <span class="sr-only" id="close-button-label">Close this notification banner</span>
+        </button>
+    </div>
+  </article>
+
+
+  </body>
+
+  <script src="this-closes-the-banner.js"></script> <!-- the js, you can bundle this somewhere else with a ready function if that's easier -->
+  
+</html>
