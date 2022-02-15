@@ -51,6 +51,7 @@
 
 .nysds-static-banner a, .nysds-static-banner a:visited  {
     color: white;
+    text-decoration:underline;
 }
 
 .nysds-static-wrap {
