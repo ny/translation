@@ -42,12 +42,17 @@
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     padding: 0.25rem 0;
-    font-size: 16px;
+    font-size: 14px;
     z-index: 1000;
     display: flex;
     justify-content: center;
     color: #fff;
 }
+
+.nysds-static-banner a, .nysds-static-banner a:visited  {
+    color: white;
+}
+
 .nysds-static-wrap {
     display: flex;
     flex-direction: row;
