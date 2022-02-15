@@ -24,7 +24,7 @@ render() {
           <div class="nysds-disclaimer"> This website has been translated using automated translation technology. 
           No automated translation is perfect, nor is it intended to replace human translators. 
           Some pages or content may not be accurately translated due to the limitations of the translation software. 
-          <a href="https://www.ny.gov/website-language-translations">More Information</a>
+          <a href="https://www.ny.gov/web-translation-services">Read the Full Disclaimer</a>
           </div>
           <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
               <span class="sr-only" id="close-button-label">Close this notification banner</span>
