@@ -17,10 +17,11 @@ constructor() {
 connectedCallback() {
   this.render();
 }
+//<sl:translate_html>
 render() {
   this.innerHTML = `
   <article id="nysds-hide-this" class="nysds-static-banner">
-      <div class="nysds-static-wrap">
+      <div class="nysds-static-wrap"> 
           <div class="nysds-disclaimer"> This website has been translated using automated translation technology. 
           No automated translation is perfect, nor is it intended to replace human translators. 
           Some pages or content may not be accurately translated due to the limitations of the translation software. 
@@ -33,5 +34,6 @@ render() {
   </article>
     `;
 }
+//</sl:translate_html>
 }
 customElements.define("nysds-banner", nysdsBanner);
