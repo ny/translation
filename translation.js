@@ -17,8 +17,8 @@ constructor() {
 connectedCallback() {
   this.render();
 }
-//<sl:translate_html>
 render() {
+  //<sl:translate_html>
   this.innerHTML = `
   <article id="nysds-hide-this" class="nysds-static-banner">
       <div class="nysds-static-wrap"> 
@@ -33,7 +33,8 @@ render() {
       </div>
   </article>
     `;
+  //</sl:translate_html>
 }
-//</sl:translate_html>
+ 
 }
 customElements.define("nysds-banner", nysdsBanner);
