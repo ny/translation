@@ -9,6 +9,35 @@
     float: left !important;
 }
 
+.smartling-ar #ny-global-search, 
+.smartling-bn #ny-global-search, 
+.smartling-zh #ny-global-search, 
+.smartling-fr #ny-global-search, 
+.smartling-ht #ny-global-search, 
+.smartling-it #ny-global-search, 
+.smartling-ko #ny-global-search, 
+.smartling-pl #ny-global-search, 
+.smartling-ru #ny-global-search, 
+.smartling-es #ny-global-search, 
+.smartling-ur #ny-global-search, 
+.smartling-yi #ny-global-search { 
+    display: none !important; 
+} 
+
+.smartling-ar .icon-search, 
+.smartling-bn .icon-search, 
+.smartling-zh .icon-search, 
+.smartling-fr .icon-search, 
+.smartling-ht .icon-search, 
+.smartling-it .icon-search, 
+.smartling-ko .icon-search, 
+.smartling-pl .icon-search, 
+.smartling-ru .icon-search, 
+.smartling-es .icon-search, 
+.smartling-ur .icon-search, 
+.smartling-yi .icon-search { 
+    display: none !important; 
+} 
 
 .nysds-close-button {
     background-color: transparent;
