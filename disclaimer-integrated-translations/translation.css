@@ -94,10 +94,10 @@
     margin: 0 2%;
 }
 
-.disclaimer-es, .disclaimer-fr {
+.disclaimer-es, .disclaimer-fr, .disclaimer-ar, .disclaimer-bn, .disclaimer-zh, .disclaimer-ht, .disclaimer-it, .disclaimer-ko, .disclaimer-pl, .disclaimer-ru, .disclaimer-ur, .disclaimer-yi {
     display: none;
 }
 
-.smartling-es .disclaimer-es, .smartling-fr .disclaimer-fr {
+.smartling-es .disclaimer-es, .smartling-fr .disclaimer-fr, .smartling-ar .disclaimer-ar, .smartling-bn .disclaimer-bn, .smartling-zh .disclaimer-zh, .smartling-ht .disclaimer-ht, .smartling-it .disclaimer-it, .smartling-ko .disclaimer-ko, .smartling-pl .disclaimer-pl, .smartling-ru .disclaimer-ru, .smartling-ur .disclaimer-ur, .smartling-yi .disclaimer-yi {
     display: block;
 }
