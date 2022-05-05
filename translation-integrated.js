@@ -21,10 +21,6 @@ render() {
   this.innerHTML = `
   <article id="nysds-hide-this" class="nysds-static-banner">
 
-      <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
-          <span class="sr-only" id="close-button-label">Close this notification banner</span>
-      </button>
-
       <div class="nysds-static-wrap disclaimer-es">
           <div class="nysds-disclaimer"> Las traducciones automáticas no son perfectas y no pretenden reemplazar a los traductores humanos. Es posible que algunas páginas o parte del contenido no estén traducidos de forma precisa debido a las limitaciones del software de traducción. <a href="https://es.ny.gov/web-translation-services">Lea la exención de responsabilidad completa</a></div>
       </div>
@@ -73,6 +69,10 @@ render() {
           <div class="nysds-disclaimer"> קיין איין אויטאמאטישע איבערזעצונג איז נישט אינגאנצן פארלעסליך, און עס איז נישט געמאכט צו ערזעצן א מענטשליכע איבערזעצער. טייל בלעטער אדער אינהאלט זענען מעגליך נישט פונקטליך איבערגעזעצט צוליב די באגרעניצטע מעגליכקייטן פון די איבערזעצונג טעכנאלאגיע. <a href="https://yi.ny.gov/web-translation-services">לייענט די פולע אויסקלארונג</a></div>
       </div>
 
+      <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
+          <span class="sr-only" id="close-button-label">Close this notification banner</span>
+      </button>
+      
   </article>
     `;
 }
