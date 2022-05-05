@@ -84,7 +84,7 @@
 }
 
 .nysds-static-wrap {
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     align-items: center;
     margin: 0 5%;
