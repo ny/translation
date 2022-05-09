@@ -90,6 +90,52 @@
     margin: 0 5%;
     width: 100%;
 }
+
 .nysds-disclaimer {
     margin: 0 2%;
+    line-height: normal !important;
+}
+
+.disclaimer-es, .disclaimer-fr, .disclaimer-ar, .disclaimer-bn, .disclaimer-zh, .disclaimer-ht, .disclaimer-it, .disclaimer-ko, .disclaimer-pl, .disclaimer-ru, .disclaimer-ur, .disclaimer-yi {
+    display: none;
+}
+
+.smartling-es .disclaimer-es, .smartling-fr .disclaimer-fr, .smartling-ar .disclaimer-ar, .smartling-bn .disclaimer-bn, .smartling-zh .disclaimer-zh, .smartling-ht .disclaimer-ht, .smartling-it .disclaimer-it, .smartling-ko .disclaimer-ko, .smartling-pl .disclaimer-pl, .smartling-ru .disclaimer-ru, .smartling-ur .disclaimer-ur, .smartling-yi .disclaimer-yi {
+    display: block;
+}
+
+.smartling-ar .nysds-disclaimer,
+.smartling-ur .nysds-disclaimer,
+.smartling-yi .nysds-disclaimer {
+    margin-right: 5%;
+}
+
+.smartling-bn .nysds-disclaimer, 
+.smartling-zh .nysds-disclaimer, 
+.smartling-fr .nysds-disclaimer, 
+.smartling-ht .nysds-disclaimer, 
+.smartling-it .nysds-disclaimer, 
+.smartling-ko .nysds-disclaimer,
+.smartling-pl .nysds-disclaimer,
+.smartling-ru .nysds-disclaimer,
+.smartling-es .nysds-disclaimer { 
+    margin-left: 5%;
+}
+
+.smartling-ar .nysds-disclaimer,
+.smartling-bn .nysds-disclaimer,
+.smartling-ko .nysds-disclaimer,
+.smartling-ur .nysds-disclaimer,
+.smartling-zh .nysds-disclaimer {
+    padding-top: .75rem;
+}
+
+.smartling-fr .nysds-disclaimer,
+.smartling-yi .nysds-disclaimer,
+.smartling-ht .nysds-disclaimer,
+.smartling-it .nysds-disclaimer,
+.smartling-pl .nysds-disclaimer,
+.smartling-ru .nysds-disclaimer,
+.smartling-es .nysds-disclaimer {
+    padding-top: .5rem;
 }
