@@ -112,7 +112,7 @@
 }
 .nysds-disclaimer {
     margin: 1%;
-    normal !important;
+    line-height: normal !important;
 }
 
 .disclaimer-es, .disclaimer-fr, .disclaimer-ar, .disclaimer-bn, .disclaimer-zh, .disclaimer-ht, .disclaimer-it, .disclaimer-ko, .disclaimer-pl, .disclaimer-ru, .disclaimer-ur, .disclaimer-yi {
