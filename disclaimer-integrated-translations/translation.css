@@ -75,7 +75,10 @@
     z-index: 1000;
     display: flex;
     justify-content: center;
-    color: #fff;
+}
+
+.nysds-static-banner div {
+    color: #fff;  
 }
 
 .nysds-static-banner a, .nysds-static-banner a:visited  {
