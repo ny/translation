@@ -1,0 +1,5 @@
+.smartling-ar .hero-layout,
+.smartling-ur .hero-layout,
+.smartling-yi .hero-layout {
+    direction: ltr;
+}
