@@ -3,3 +3,9 @@
 .smartling-yi .hero-layout {
     direction: ltr;
 }
+
+.smartling-ar .article-content h2,
+.smartling-ur .article-content h2,
+.smartling-yi .article-content h2 {
+    text-align: right;
+}
