@@ -4,8 +4,8 @@
     direction: ltr;
 }
 
-.smartling-ar .article-content h2,
-.smartling-ur .article-content h2,
-.smartling-yi .article-content h2 {
+.smartling-ar .toc-chapters h2,
+.smartling-ur .toc-chapters h2,
+.smartling-yi .toc-chapters h2 {
     text-align: right;
 }
